@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;400&display=swap');
 
 :root {
-    --cor-primaria: black;
+    --cor-primaria: #1b1b1b;
     --cor-secundaria: white;
     --cor-terciaria : aqua;
     --cor-hover: #272727;
@@ -31,8 +31,16 @@ body {
     text-decoration: none;
 }
 
-.apresentacao {
-    padding: 5% 15%;
+.apresentacao__index {
+    padding: 5% 15% 52px;
+    display: flex;   
+    align-items: center;
+    justify-content: space-between; 
+    gap: 82px;
+}
+
+.apresentacao__about {
+    padding: 5% 15% 195px;
     display: flex;   
     align-items: center;
     justify-content: space-between; 
@@ -94,7 +102,7 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 490px 550px;
 }
 
 .rodape {
@@ -110,26 +118,4 @@ body {
 * {
     margin: 0;
     padding: 0;
-}
-
-@media (max-width: 1200px) {
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: ;
-    }
-
-    .apresentacao__conteudo {
-        width: auto;
-
-    }
-
-    .cabecalho {
-        padding: 6%;
-    }
-
-    .cabecalho__menu {
-        justify-content: center;
-    }
-
-
 }
